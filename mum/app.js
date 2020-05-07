@@ -60,7 +60,11 @@ function readOutLoud(message){
     }; 
 
     if (message.includes('tengo')){
-        speech.text = 'Sí, de: Reny, Florecita, Mamá, Javi, Dafne';
+        speech.text = 'Sí, de: Reny, Florecita, Mamá, Javi, Dafne, Mariel';
+    };
+
+    if (message.includes('mariel')){
+        speech.text = 'Feliz cumpleaños. Te amo';
     };
 
     if (message.includes('reny')){
@@ -68,15 +72,15 @@ function readOutLoud(message){
     };
 
     if (message.includes('florecita')){
-        speech.text = '';
+        speech.text = 'Hermanita, te amo. Siempre serás mi brujula. Gracias por quedarte con nostras.';
     };
 
     if (message.includes('mama')){
-        speech.text = '';
+        speech.text = 'Alecita , Mi Macky eres la estrella que me acompaña en este hermoso lugar que es vida , muchas gracias hija por favor existir .';
     };
 
     if (message.includes('javi')){
-        speech.text = '';
+        speech.text = 'que el universo y el tiempo confabulen con la tierra que a tus pies yace y la sigas colmando de bendiciones a través de tus sonrisas, feliz cumpleaños ';
     };
 
     if (message.includes('dafne')){
