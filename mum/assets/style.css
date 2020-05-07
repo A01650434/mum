@@ -1,0 +1,10 @@
+body {
+     background-color: plum;
+     background-image: url(./img/geburtstag.jpg);
+     background-repeat: no-repeat;
+    background-size: 150px 80px;
+}
+.talk {
+    background-color: #e747df;
+    color: black;
+  }
