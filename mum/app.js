@@ -60,7 +60,7 @@ function readOutLoud(message){
     }; 
 
     if (message.includes('tengo')){
-        speech.text = 'Sí, de: Reny, Florecita, Mamá, Javi, Dafne, Mariel';
+        speech.text = 'Sí, de: Reny, Florecita, Mamá, Javi, Dafne, Mariel, Hugo, Pazzi, Elisa';
     };
 
     if (message.includes('mariel')){
@@ -85,6 +85,18 @@ function readOutLoud(message){
 
     if (message.includes('dafne')){
         speech.text = 'Mami te amo, gracias por creecer conmigo. Feliz cumpleaños';
+    };
+
+    if (message.includes('hugo')){
+        speech.text = 'Mia. Hermana te quiero mucho  pasatela super';
+    };
+
+    if (message.includes('elisa')){
+        speech.text = 'Ale , mi hermana mayor, mi ejemplo de amor, te quiero mucho ';
+    };
+
+    if (message.includes('pazzi')){
+        speech.text = '';
     };
 
     speech.volume = 0.5;
